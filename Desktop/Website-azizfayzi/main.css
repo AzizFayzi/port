@@ -1,0 +1,93 @@
+    hr {
+        position: relative;
+        background: #C2C2C2;
+    }
+    
+    .footer {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: #F7F7F7;
+    }
+    
+    .team {
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(3, 33%);
+    }
+    
+    .team-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        grid-row-gap: 1000px;
+    }
+    
+    .team-item img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 140px;
+        width: 150px;
+        height: 150px;
+        margin-top: 100px;
+        border-radius: 50%;
+    }
+    
+    .team-item>div {
+        flex-basis: calc(100% - 100px);
+    }
+    
+    .team-item h3 {
+        font-size: 21px;
+        color: #202020;
+        margin-top: 150px;
+        margin-left: 25px;
+    }
+    
+    .team-item p {
+        font-size: 19px;
+        color: #b2b2b2;
+        margin-left: 25px;
+    }
+    
+    .box-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: 20px;
+        font-optical-sizing: 40px;
+    }
+    
+    .social {
+        display: flex;
+        list-style-type: none;
+        padding-left: 90rem;
+        position: absolute;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        color: #B2B2B2;
+        justify-content: flex-start;
+    }
+    
+    .social a i {
+        color: #B2B2B2;
+    }
+    
+    .gap {
+        position: absolute;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 300;
+        color: #C2C2C2;
+        top: -25px;
+        background-color: white;
+        margin-left: 100px;
+    }
